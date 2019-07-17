@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate chat widget visible</description>
+   <name>Chat Widget UI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c13c9dda-2a8d-4ddc-a11e-3c983f8e5a77</testCaseGuid>
+</TestCaseEntity>
