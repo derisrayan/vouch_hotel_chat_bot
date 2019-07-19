@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Momo_UI_Function,Firefox 68.0,Script for UI,2019-07-19 15:12:40,2019-07-19 15:14:01,"1m - 20,806s",PASSED
+,,,,,,
+Test Cases/Chat Widget UI,Firefox 68.0,Validate chat widget visible,2019-07-19 15:12:40,2019-07-19 15:13:09,"28,327s",PASSED
+"openBrowser(""https://staging.vouch.sg/api/v1/merchants/bot/5c0899a0f82bb561b4eff079"")",Firefox 68.0,,2019-07-19 15:12:41,2019-07-19 15:12:50,"9,863s",PASSED
+waitForPageLoad(5),Firefox 68.0,,2019-07-19 15:12:50,2019-07-19 15:12:50,"0,073s",PASSED
+"waitForElementVisible(findTestObject(""Momo_UI/Chat Widget Visibility""), 5, STOP_ON_FAILURE)",Firefox 68.0,,2019-07-19 15:12:50,2019-07-19 15:12:57,"6,687s",PASSED
+delay(3),Firefox 68.0,,2019-07-19 15:12:57,2019-07-19 15:13:00,"3,040s",PASSED
+"takeScreenshot(""D:\Vouch\UI\1_chat_widget.png"")",Firefox 68.0,,2019-07-19 15:13:00,2019-07-19 15:13:00,"0,220s",PASSED
+"waitForElementVisible(findTestObject(""Momo_UI/Close Button""), 0, STOP_ON_FAILURE)",Firefox 68.0,,2019-07-19 15:13:00,2019-07-19 15:13:00,"0,058s",PASSED
+"click(findTestObject(""Momo_UI/Close Button""))",Firefox 68.0,,2019-07-19 15:13:00,2019-07-19 15:13:01,"0,275s",PASSED
+"waitForElementNotVisible(findTestObject(""Momo_UI/Chat Widget Visibility""), 0)",Firefox 68.0,,2019-07-19 15:13:01,2019-07-19 15:13:01,"0,713s",PASSED
+"verifyElementNotVisibleInViewport(findTestObject(""Momo_UI/Chat Widget Visibility""), 2)",Firefox 68.0,,2019-07-19 15:13:01,2019-07-19 15:13:02,"0,101s",PASSED
+delay(2),Firefox 68.0,,2019-07-19 15:13:02,2019-07-19 15:13:04,"2,004s",PASSED
+"takeScreenshot(""D:\Vouch\UI\2_closed_widget.png"")",Firefox 68.0,,2019-07-19 15:13:04,2019-07-19 15:13:04,"0,120s",PASSED
+"click(findTestObject(""Momo_UI/Momo_Open""))",Firefox 68.0,,2019-07-19 15:13:04,2019-07-19 15:13:04,"0,279s",PASSED
+delay(1),Firefox 68.0,,2019-07-19 15:13:04,2019-07-19 15:13:05,"1,003s",PASSED
+"takeScreenshot(""D:\Vouch\UI\3_opened_widget.png"")",Firefox 68.0,,2019-07-19 15:13:05,2019-07-19 15:13:05,"0,123s",PASSED
+closeBrowser(),Firefox 68.0,,2019-07-19 15:13:05,2019-07-19 15:13:09,"3,447s",PASSED
+,,,,,,
+Test Cases/Chat Widget Fucntion,Firefox 68.0,,2019-07-19 15:13:09,2019-07-19 15:14:01,"52,158s",PASSED
+"openBrowser("""")",Firefox 68.0,,2019-07-19 15:13:09,2019-07-19 15:13:14,"5,055s",PASSED
+"navigateToUrl(""https://staging.vouch.sg/api/v1/merchants/bot/5c0899a0f82bb561b4eff079"")",Firefox 68.0,,2019-07-19 15:13:14,2019-07-19 15:13:18,"4,097s",PASSED
+"waitForElementClickable(findTestObject(""Momo_Function/btn_started""), 5)",Firefox 68.0,,2019-07-19 15:13:18,2019-07-19 15:13:20,"1,690s",PASSED
+"waitForElementVisible(findTestObject(""Momo_UI/Chat Widget Visibility""), 5)",Firefox 68.0,,2019-07-19 15:13:20,2019-07-19 15:13:25,"5,077s",PASSED
+delay(5),Firefox 68.0,,2019-07-19 15:13:25,2019-07-19 15:13:30,"5,007s",PASSED
+"takeScreenshot(""D:\Vouch\Function\1_chat_widget.png"")",Firefox 68.0,,2019-07-19 15:13:30,2019-07-19 15:13:30,"0,194s",PASSED
+"click(findTestObject(""Momo_Function/btn_started""))",Firefox 68.0,,2019-07-19 15:13:30,2019-07-19 15:13:30,"0,296s",PASSED
+"takeScreenshot(""D:\Vouch\Function\2_click_start.png"")",Firefox 68.0,,2019-07-19 15:13:30,2019-07-19 15:13:30,"0,170s",PASSED
+delay(5),Firefox 68.0,,2019-07-19 15:13:30,2019-07-19 15:13:35,"5,004s",PASSED
+"takeScreenshot(""D:\Vouch\Function\3_start.png"")",Firefox 68.0,,2019-07-19 15:13:35,2019-07-19 15:13:36,"0,211s",PASSED
+"setText(findTestObject(""Momo_Function/input_chat""), ""Amenities"")",Firefox 68.0,,2019-07-19 15:13:36,2019-07-19 15:13:36,"0,110s",PASSED
+"takeScreenshot(""D:\Vouch\Function\4_set_text_amenities.png"")",Firefox 68.0,,2019-07-19 15:13:36,2019-07-19 15:13:36,"0,178s",PASSED
+"click(findTestObject(""Momo_Function/btn_enter_inside""), STOP_ON_FAILURE)",Firefox 68.0,,2019-07-19 15:13:36,2019-07-19 15:13:36,"0,267s",PASSED
+delay(4),Firefox 68.0,,2019-07-19 15:13:36,2019-07-19 15:13:40,"4,005s",PASSED
+"takeScreenshot(""D:\Vouch\Function\5_result_amenities.png"")",Firefox 68.0,,2019-07-19 15:13:40,2019-07-19 15:13:40,"0,253s",PASSED
+"click(findTestObject(""Momo_Function/more_info_gym""))",Firefox 68.0,,2019-07-19 15:13:40,2019-07-19 15:13:41,"0,299s",PASSED
+"takeScreenshot(""D:\Vouch\Function\6_click_info_gym.png"")",Firefox 68.0,,2019-07-19 15:13:41,2019-07-19 15:13:41,"0,243s",PASSED
+delay(2),Firefox 68.0,,2019-07-19 15:13:41,2019-07-19 15:13:43,"2,004s",PASSED
+"takeScreenshot(""D:\Vouch\Function\7_info_gym.png"")",Firefox 68.0,,2019-07-19 15:13:43,2019-07-19 15:13:43,"0,230s",PASSED
+"click(findTestObject(""Momo_Function/btn_back_menu""))",Firefox 68.0,,2019-07-19 15:13:43,2019-07-19 15:13:43,"0,255s",PASSED
+"takeScreenshot(""D:\Vouch\Function\8_click_btn_back.png"")",Firefox 68.0,,2019-07-19 15:13:43,2019-07-19 15:13:44,"0,200s",PASSED
+delay(3),Firefox 68.0,,2019-07-19 15:13:44,2019-07-19 15:13:47,"3,003s",PASSED
+"click(findTestObject(""Momo_Function/more_info_pool""))",Firefox 68.0,,2019-07-19 15:13:47,2019-07-19 15:13:47,"0,257s",PASSED
+"takeScreenshot(""D:\Vouch\Function\9_click_info_pool.png"")",Firefox 68.0,,2019-07-19 15:13:47,2019-07-19 15:13:47,"0,195s",PASSED
+delay(3),Firefox 68.0,,2019-07-19 15:13:47,2019-07-19 15:13:50,"3,005s",PASSED
+"takeScreenshot(""D:\Vouch\Function\10_info_pool.png"")",Firefox 68.0,,2019-07-19 15:13:50,2019-07-19 15:13:50,"0,178s",PASSED
+"click(findTestObject(""Momo_Function/btn_Pool_Attire""))",Firefox 68.0,,2019-07-19 15:13:50,2019-07-19 15:13:51,"0,280s",PASSED
+"takeScreenshot(""D:\Vouch\Function\11_click_pool_attire.png"")",Firefox 68.0,,2019-07-19 15:13:51,2019-07-19 15:13:51,"0,188s",PASSED
+delay(2),Firefox 68.0,,2019-07-19 15:13:51,2019-07-19 15:13:53,"2,002s",PASSED
+"takeScreenshot(""D:\Vouch\Function\12_pool_attire.png"")",Firefox 68.0,,2019-07-19 15:13:53,2019-07-19 15:13:53,"0,171s",PASSED
+"click(findTestObject(""Momo_Function/btn_back_menu""))",Firefox 68.0,,2019-07-19 15:13:53,2019-07-19 15:13:53,"0,258s",PASSED
+"takeScreenshot(""D:\Vouch\Function\13_click_back.png"")",Firefox 68.0,,2019-07-19 15:13:53,2019-07-19 15:13:53,"0,169s",PASSED
+delay(3),Firefox 68.0,,2019-07-19 15:13:53,2019-07-19 15:13:56,"3,004s",PASSED
+"takeScreenshot(""D:\Vouch\Function\14_menu_amenities.png"")",Firefox 68.0,,2019-07-19 15:13:56,2019-07-19 15:13:57,"0,225s",PASSED
+closeBrowser(),Firefox 68.0,,2019-07-19 15:13:57,2019-07-19 15:14:01,"4,173s",PASSED

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>Script for UI</description>
-   <name>UI Validation</name>
+   <name>Momo_UI_Function</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -11,9 +11,15 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>fd22be24-c49c-4e82-b884-fe55328295ed</testSuiteGuid>
    <testCaseLink>
-      <guid>4a2c2830-a9e1-43dd-ade7-a49f9349df84</guid>
+      <guid>eae691aa-0aab-4213-8798-cbd1b582ae4e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Chat Widget UI</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>333d0205-4048-4fe0-ad09-926ffa99c576</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat Widget Fucntion</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

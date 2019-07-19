@@ -17,7 +17,29 @@ WebUI.openBrowser('https://staging.vouch.sg/api/v1/merchants/bot/5c0899a0f82bb56
 
 WebUI.waitForPageLoad(5)
 
-WebUI.verifyElementPresent(findTestObject('Chat Widget Visibility'), 5)
+WebUI.waitForElementVisible(findTestObject('Momo_UI/Chat Widget Visibility'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Close Widget'))
+WebUI.delay(3)
+
+WebUI.takeScreenshot('D:\\Vouch\\UI\\1_chat_widget.png')
+
+WebUI.waitForElementVisible(findTestObject('Momo_UI/Close Button'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Momo_UI/Close Button'))
+
+WebUI.waitForElementNotVisible(findTestObject('Momo_UI/Chat Widget Visibility'), 0)
+
+WebUI.verifyElementNotVisibleInViewport(findTestObject('Momo_UI/Chat Widget Visibility'), 2)
+
+WebUI.delay(2)
+
+WebUI.takeScreenshot('D:\\Vouch\\UI\\2_closed_widget.png')
+
+WebUI.click(findTestObject('Momo_UI/Momo_Open'))
+
+WebUI.delay(1)
+
+WebUI.takeScreenshot('D:\\Vouch\\UI\\3_opened_widget.png')
+
+WebUI.closeBrowser()
 
