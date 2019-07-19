@@ -1,2 +1,3 @@
-1.	Use Katalon to execute Test Suites
+1.	Open Project by Use Katalon and execute Test Suites
 2.	To see report, you go to Reports on the right panel->Right Click Momo_UI_Fucntion
+3.  You can see screen capture at D:\\Vouch Folder
